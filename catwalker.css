@@ -1,0 +1,37 @@
+/******* styles for the catwalker plugin ********/
+
+.post li.categories,
+.post li.attribute,
+.post li.attribute li,
+.post li.cat-item {
+list-style-type: none;
+}
+
+.crosscat-form {
+padding: 10px;
+}
+
+.crosscat-form select {
+width: 100%;
+margin: 2px 0;
+}
+
+.crosscat-form input[type="submit"] {
+display: block;
+margin-top: 5px;
+}
+
+.cc-no-results {
+opacity: 0.3;
+filter:alpha(opacity=30);
+}
+
+.catwalker-related ul {
+	list-style-type: none;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.catwalker-related ul ul {
+	margin: 0 1em;
+}
